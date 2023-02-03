@@ -226,16 +226,34 @@ span {
   border-radius: 0.5rem;
 }
 .html-bar {
-  width: 94%;
+  width: 85%;
 }
 .css-bar {
-  width: 84%;
+  width: 80%;
 }
 .js-bar {
-  width: 74%;
+  width: 78%;
 }
-.react-bar {
+.php-bar {
+  width: 83%;
+}
+.java-bar {
+  width: 75%;
+}
+.mysql-bar {
   width: 80%;
+}
+.bootstrap-bar {
+  width: 80%;
+}
+.codeigniter-bar {
+  width: 85%;
+}
+.laravel-bar {
+  width: 85%;
+}
+.teamwork-bar {
+  width: 85%;
 }
 .services-content {
   display: grid;
