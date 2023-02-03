@@ -148,6 +148,7 @@ header.shadow {
 }
 .btn:hover {
   background: var(--hover);
+  color: #fff;
 }
 
 .about-container {
