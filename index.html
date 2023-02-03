@@ -85,7 +85,66 @@
               <span>aliabdurohman16@gmail.com</span>
             </div>
           </div>
-          <a href="cv/CV Ali Abdurohman.pdf" target="_blank" class="btn btn-outline-primary px-4"><i class="bi bi-arrow-down-circle-fill me-3"></i>Download CV </a>
+
+          <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target=#education>Education</button>
+            <button type="button" class="tab-item" data-target=#experience>Experience</button>
+          </div>
+
+          <!-- Education Start -->
+          <div class="tab-content active" id="education">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">2021-Now</span>
+                    <h4>Universitas Kuningan - <span>Teknik Informatika</span></h4>
+                    <li>GPA 3.57 (Provisional)</li>
+                    <li>Participate actively in the organization</li>
+                    <li>Participate in training programs</li>
+                    <li>Participate in the MBKM Program</li>
+                    <li>Participate in competitions</li>
+                    <li>Participate in research or projects with lecturers</li>
+                </div>
+            </div>
+          </div>
+          <!-- Education End -->
+
+          <!-- Experience Start -->
+          <div class="tab-content" id="experience">
+              <div class="timeline">
+                  <div class="timeline-item">
+                      <span class="date">April 2022 - November 2022</span>
+                      <h4>Program PPK Ormawa - <span>Kampus Merdeka</span></h4>
+                      <li>FGD survey in the village</li>
+                      <li>Analyze survey results</li>
+                      <li>Designing a system for website creation</li>
+                      <li>Create a website about the Village Submission System</li>
+                      <li>Become a speaker on the use of applications for village devices</li>
+                      <li>Create a website launch seminar event that has been made</li>
+                  </div>
+                  <div class="timeline-item">
+                      <span class="date">2021 - 2022</span>
+                      <h4>Freelance - <span>Remote/Work From Home</span></h4>
+                      <li>Create a website</li>
+                      <li>Maintain website</li>
+                      <li>Create an API for IoT needs or others</li>
+                      <li>Entering the website into hosting</li>
+                  </div>
+                  <div class="timeline-item">
+                      <span class="date">January 2021 - March 2021</span>
+                      <h4>Internship at the Village Office - <span>Pemerintahan Desa Ciuyah</span></h4>
+                      <li>Create a village information system website</li>
+                      <li>Entering data into the village information website</li>
+                      <li>Maintenance of the village information system website</li>
+                      <li>Incorporating a website into hosting</li>
+                      <li>Fixed website error</li>
+                      <li>Incorporating a website into SEO</li>
+                      <li>Improve SEO to Google</li>
+                  </div>
+              </div>
+          </div>
+          <!-- Experience End -->
+
+          <a href="cv/CV Ali Abdurohman.pdf" target="_blank" class="btn btn-cv px-4"><i class="bi bi-arrow-down-circle-fill me-3"></i>Download CV </a>
         </div>
       </div>
     </section>
@@ -208,15 +267,15 @@
       </div>
       <div class="contact-form">
         <div class="alert alert-warning alert-dismissible fade show d-none my-alert" role="alert">
-          <strong>Hatur Nuhun</strong> Email Maneh Ku urang pake Pinjol wkwk
+          <strong>Thank's You</strong>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-        <form action="" name="Lumayan buat pinjol emailna">
+        <form action="" name="sending">
           <input type="text" placeholder="Your Name" name="nama" />
           <input type="email" name="email" id="" placeholder="Your Email" />
           <textarea name="pesan" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-          <input type="submit" value="Send" class="contact-button btn-kirim" />
-          <button class="btn btn-primary btn-oading d-none" type="button" disabled>
+          <input type="submit" value="Send" class="contact-button" />
+          <button class="btn btn-outline-primary btn-loading d-none" type="button" disabled>
             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
             Loading...
           </button>

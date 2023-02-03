@@ -26,3 +26,18 @@ darkmode.onclick = () => {
     document.body.classList.remove("active");
   }
 };
+
+// About Tabs
+const tabsContainer = document.querySelector(".about-tabs");
+const aboutSection = document.querySelector(".about");
+
+tabsContainer.addEventListener("click", (e) => {
+    if (e.target.classList.contains("tab-item") && !e.target.classList.contains("active")) {
+        tabsContainer.querySelector(".active").classList.remove("active");
+        e.target.classList.add("active");
+        const target = e.target.getAttribute("data-target");
+        aboutSection.querySelector(".tab-content.active").classList.remove("active");
+        aboutSection.querySelector(target).classList.add("active");
+    }
+});
+
