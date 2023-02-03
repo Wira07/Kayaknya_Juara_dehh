@@ -604,6 +604,7 @@ form textarea {
 .popup-header {
   text-align: center;
   text-transform: uppercase;
+  padding: 0 20px;
   margin-bottom: 36px;
 }
 .popup-header h1 {
@@ -673,11 +674,17 @@ form textarea {
   section {
     padding: 50px 4%;
   }
+  .popup-content {
+    margin: 14% auto;
+  }
 }
 @media (max-width: 881px) {
   :root {
     --big-font: 2.7rem;
     --medium-font: 1.4rem;
+  }
+  .popup-content {
+    margin: 18% auto;
   }
 }
 @media (max-width: 768px) {
@@ -731,7 +738,7 @@ form textarea {
     order: initial;
   }
   .home-img img {
-    margin-left: 12px;
+    margin-left: 100px;
   }
   .about-container {
     grid-template-columns: 1fr;
@@ -756,6 +763,25 @@ form textarea {
   }
   .contact-button {
     margin-left: 25%;
+  }
+  .popup-content {
+    width: 80%;
+    margin: 13% auto;
+  }
+  .popup-header h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 540px) {
+  :root {
+    --big-font: 2.2rem;
+    --medium-font: 1.2rem;
+  }
+  .home-img img {
+    margin-left: 13px;
+  }
+  .popup-content {
+    margin: 18% auto;
   }
 }
 @media (max-width: 340px) {
