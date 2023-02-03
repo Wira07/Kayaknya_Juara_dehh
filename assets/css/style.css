@@ -475,6 +475,9 @@ span {
 .general-info a {
   text-decoration: none;
   text-transform: lowercase;
+  color: var(--hover);
+}
+.general-info a:hover {
   color: var(--main-color);
 }
 .contact-form {
