@@ -468,6 +468,7 @@ form textarea {
 }
 .contact-button:hover {
   background: var(--hover);
+  color: #fff;
 }
 .footer {
   display: grid;
