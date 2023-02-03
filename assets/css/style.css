@@ -652,7 +652,7 @@ form textarea {
   top: 12px;
   right: 20px;
   text-decoration: none;
-  color: var(--main-color);
+  color: #4f188a;
   font-size: 30px;
   display: inline-block;
   line-height: 1;
@@ -660,7 +660,7 @@ form textarea {
 }
 .popup-close:hover,
 .popup-close:active {
-  color: var(--hover);
+  color: hsl(260, 100%, 51%);
 }
 /* Making Responsive */
 @media (max-width: 991px) {
