@@ -583,12 +583,13 @@ form textarea {
   transition: all .3s;
 }
 .popup-content {
+  position: relative;
   width: 60%;
   background-color: var(--bg-color);
   box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
   margin: 7% auto;
-  transform: scale(.25);
-  opacity: 0;
+  /* transform: scale(.25); */
+  /* opacity: 0; */
   padding: 0% 0% 10%;
   border-radius: 10px;
   transition: all .5s .1s;
@@ -618,53 +619,22 @@ form textarea {
 .popup-text p:not(:last-child) {
   margin-bottom: 16px;
 }
-#sikuku:target {
-  opacity: 1;
-  display: block;
-}
-#sikuku:target .popup-content {
-  opacity: 1;
-  transform: scale(1);
-}
-#sipedes:target {
-  opacity: 1;
-  display: block;
-}
-#sipedes:target .popup-content {
-  opacity: 1;
-  transform: scale(1);
-}
-#cagak:target {
-  opacity: 1;
-  display: block;
-}
-#cagak:target .popup-content {
-  opacity: 1;
-  transform: scale(1);
-}
-#pemdes-ciuyah:target {
-  opacity: 1;
-  display: block;
-}
-#pemdes-ciuyah:target .popup-content {
-  opacity: 1;
-  transform: scale(1);
-}
-.popup-close:link,
-.popup-close:visited {
+.popup-close {
   position: absolute;
-  top: 12px;
-  right: 20px;
+  top: 10px;
+  right: 15px;
   text-decoration: none;
   color: #4f188a;
   font-size: 30px;
   display: inline-block;
   line-height: 1;
   transition: all .3s;
+  font-weight: bold;
 }
 .popup-close:hover,
-.popup-close:active {
+.popup-close:focus {
   color: hsl(260, 100%, 51%);
+  cursor: pointer;
 }
 /* Making Responsive */
 @media (max-width: 991px) {

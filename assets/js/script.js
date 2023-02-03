@@ -41,3 +41,90 @@ tabsContainer.addEventListener("click", (e) => {
     }
 });
 
+// Popup Sikuku
+var sikuku = document.querySelector("#sikuku");
+var btnSikuku = document.querySelector("#btnSikuku");
+var closeSikuku = document.querySelector("#close-sikuku");
+
+btnSikuku.onclick = function() {
+  sikuku.style.display = "block";
+  sikuku.style.opacity = 1;
+}
+
+closeSikuku.onclick = function() {
+  sikuku.style.display = "none";
+  sikuku.style.opacity = 0;
+}
+
+window.onclick = function(event) {
+  if (event.target == sikuku) {
+    sikuku.style.display = "none";
+    sikuku.style.opacity = 0;
+  }
+}
+
+// Popup Sipedes
+var sipedes = document.querySelector("#sipedes");
+var btnSipedes = document.querySelector("#btnSipedes");
+var closeSipedes = document.querySelector("#close-sipedes");
+
+btnSipedes.onclick = function() {
+  sipedes.style.display = "block";
+  sipedes.style.opacity = 1;
+}
+
+closeSipedes.onclick = function() {
+  sipedes.style.display = "none";
+  sipedes.style.opacity = 0;
+}
+
+window.onclick = function(event) {
+  if (event.target == sipedes) {
+    sipedes.style.display = "none";
+    sipedes.style.opacity = 0;
+  }
+}
+
+// Popup Cagak
+var cagak = document.querySelector("#cagak");
+var btnCagak = document.querySelector("#btnCagak");
+var closeCagak = document.querySelector("#close-cagak");
+
+btnCagak.onclick = function() {
+  cagak.style.display = "block";
+  cagak.style.opacity = 1;
+}
+
+closeCagak.onclick = function() {
+  cagak.style.display = "none";
+  cagak.style.opacity = 0;
+}
+
+window.onclick = function(event) {
+  if (event.target == cagak) {
+    cagak.style.display = "none";
+    cagak.style.opacity = 0;
+  }
+}
+
+// Popup Pemdes Ciuyah
+var pemdesCiuyah = document.querySelector("#pemdes-ciuyah");
+var btnPemdes = document.querySelector("#btnPemdes");
+var closePemdes = document.querySelector("#close-pemdes");
+
+btnPemdes.onclick = function() {
+  pemdesCiuyah.style.display = "block";
+  pemdesCiuyah.style.opacity = 1;
+}
+
+closePemdes.onclick = function() {
+  pemdesCiuyah.style.display = "none";
+  pemdesCiuyah.style.opacity = 0;
+}
+
+window.onclick = function(event) {
+  if (event.target == pemdesCiuyah) {
+    pemdesCiuyah.style.display = "none";
+    pemdesCiuyah.style.opacity = 0;
+  }
+}
