@@ -730,6 +730,9 @@ form textarea {
   .home-img {
     order: initial;
   }
+  .home-img img {
+    margin-left: 12px;
+  }
   .about-container {
     grid-template-columns: 1fr;
   }
